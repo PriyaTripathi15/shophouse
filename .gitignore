@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment files
+.env
+.env.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Optional: testing coverage
+coverage/
+
+# Optional: MongoDB dump files
+dump/
+
+# React-specific
+*.log
+*.tgz
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Optional: Mac/Linux-specific
+*.swp
+*.swo

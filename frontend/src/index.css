@@ -1,0 +1,63 @@
+/* rating*/
+.rating span{
+    margin:0.1rem;
+}
+.rating svg{
+    color:#f8e825
+}
+.rating-text{
+    font-size:0.8rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+}
+product-title{
+    height:2.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*header*/
+.logo-img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .brand-name {
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo-img {
+      height: 30px;
+      width: 30px;
+    }
+  
+    .brand-name {
+      font-size: 1.2rem;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-link {
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .navbar-nav {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .nav-link {
+      margin-bottom: 0;
+    }
+  } 
